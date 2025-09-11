@@ -39,7 +39,17 @@ $(function () {
 
     // TODO 3 - Create Collectables
 
+    createCollectable("diamond", 600, 600, 0.5, 0.7);
+    createCollectable("grace", 600, 200, 0.5, 0.7);
+    createCollectable("kennedi", 900, 300, 0.5, 0.7);
+    createCollectable("max", 1200, 400, 0.5, 0.7);
+    createCollectable("steve", 900, 500, 0.5, 0.7);
+
     // TODO 4 - Create Cannons
+
+    createCannon("top", 700, 750);
+    createCannon("bottom", 1100, 800);
+    createCannon("top", 1000, 800);
 
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
